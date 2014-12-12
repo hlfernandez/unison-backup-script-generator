@@ -44,7 +44,7 @@ def unisonCommand(i, unison, prf, logfile):
     print
     
 def printHelp():
-    print 'test.py -w <unison_working_dir> -u <path_to_unison> [-f <filter>]'
+    print 'generate-backup-script.py -w <unison_working_dir> -u <path_to_unison> [-f <filter>]'
 
 def main(argv):
    unisonwd, unison, filt = readOptions(argv)                  
